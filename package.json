@@ -1,9 +1,11 @@
 {
   "name": "back-end",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A clone of a popular real time message application using the MERN stack",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +13,17 @@
     "url": "git+https://github.com/i786m/mernchat-back-end.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Imran Mohamed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/i786m/mernchat-back-end/issues"
   },
-  "homepage": "https://github.com/i786m/mernchat-back-end#readme"
+  "homepage": "https://github.com/i786m/mernchat-back-end#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "pusher": "^5.0.0"
+  }
 }
